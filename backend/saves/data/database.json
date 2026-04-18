@@ -1,0 +1,74 @@
+{
+    "databases": [
+        {
+            "name": "111",
+            "description": "",
+            "db_type": "knowledge",
+            "db_id": "698d51a1",
+            "embed_model": "zhipu-embedding-3",
+            "metaname": "k698d51a1",
+            "metadata": {
+                "collection_name": "k698d51a1",
+                "auto_id": false,
+                "num_shards": 1,
+                "description": "",
+                "fields": [
+                    {
+                        "field_id": 100,
+                        "name": "id",
+                        "description": "",
+                        "type": 5,
+                        "params": {},
+                        "is_primary": true
+                    },
+                    {
+                        "field_id": 101,
+                        "name": "vector",
+                        "description": "",
+                        "type": 101,
+                        "params": {
+                            "dim": 2048
+                        }
+                    }
+                ],
+                "functions": [],
+                "aliases": [],
+                "collection_id": 456754888044079753,
+                "consistency_level": 2,
+                "properties": {},
+                "num_partitions": 1,
+                "enable_dynamic_field": true,
+                "row_count": 28
+            },
+            "files": [
+                {
+                    "file_id": "file_29e9d6ba",
+                    "filename": "youlbfoo_1740448919438_cd19_.pdf",
+                    "path": "saves\\data/uploads\\youlbfoo_1740448919438_cd19_.pdf",
+                    "type": "pdf",
+                    "status": "done",
+                    "created_at": 1742384896.1621284
+                },
+                {
+                    "file_id": "file_8f0f3191",
+                    "filename": "大模型相关软件_489be6da1697e3f9..docx",
+                    "path": "src/saves/pdf2txt/大模型相关软件_489be6da1697e3f9..docx",
+                    "type": "docx",
+                    "status": "done",
+                    "created_at": 1742989050.88121
+                }
+            ],
+            "dimension": 2048
+        }
+    ],
+    "graph": {
+        "database_name": "neo4j",
+        "entity_count": 21,
+        "relationship_count": 12,
+        "triples_count": 12,
+        "labels": [
+            "Entity"
+        ],
+        "status": "open"
+    }
+}

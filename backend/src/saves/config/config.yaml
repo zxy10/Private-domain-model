@@ -1,0 +1,27 @@
+embed_model: zhipu-embedding-3
+enable_knowledge_base: false
+enable_knowledge_graph: false
+enable_reranker: false
+enable_search_engine: false
+filename: src\saves\config\config.yaml
+milvus:
+  db_name: null
+  token: null
+  uri: http://47.103.8.209:19024
+model_local_paths: {}
+model_name: gpt-4o
+model_provider: openai
+neo4j:
+  password: 0123456789
+  uri: neo4j://47.103.8.209:19023
+  username: neo4j
+reranker: bge-reranker-v2-m3
+save_dir: saves
+stream: true
+valuable_model_provider:
+- openai
+- deepseek
+- deepseekNew
+- zhipu
+- dashscope
+- siliconflow
